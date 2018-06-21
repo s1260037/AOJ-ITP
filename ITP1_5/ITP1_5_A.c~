@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+  int H;
+  int W;
+  scanf("%d %d", &H, &W);
+  int h ,w;
+  for(h = 1 ; h <= H , h++){
+    for(w = 1 ; w <= W , w++){
+      printf("#");
+    }
+  }
+}
